@@ -23,4 +23,7 @@ public class Xpaths {
 	public static String deliveryAddress           ="//input[@placeholder='For Example: House# 123, Street# 123, ABC Road']";
 	public static String deliveryTo_Home           ="//span[contains(text(),'HOME')]";
 	public static String deliverySaveButton        ="//button[@type='submit']";
+	public static String editShippingAddressButton ="//a[@class='address-edit automation-address-edit']";
+	public static String addNewAddress             ="//a[contains(text(),'Add new address')]";
+	public static String addressSaveButton         ="//button[contains(text(),'SAVE')]";
 }

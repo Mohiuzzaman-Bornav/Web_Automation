@@ -57,13 +57,17 @@ public class OrderItem extends Driversetup{
 		driver.findElement(By.xpath (Xpaths.checkout)).click();
 		Thread.sleep(1000);
 		
+		driver.findElement(By.xpath (Xpaths.editShippingAddressButton)).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath (Xpaths.addNewAddress)).click();
+		Thread.sleep(1000);
+		
+		
+		
 		driver.findElement(By.xpath (Xpaths.deliveryFullName)).sendKeys("Mohiuzzaman");
 		Thread.sleep(1000);
 		driver.findElement(By.xpath (Xpaths.deliveryPhoneNumber)).sendKeys("01558016661");
 		Thread.sleep(1000);
-		driver.findElement(By.xpath (Xpaths.deliveryEmail)).sendKeys("mzbornav1@gmail.com");
-		Thread.sleep(1000);
-		
 		
 		//DropDown		
 		driver.findElement(By.xpath (Xpaths.deliveryRegion)).click();
@@ -78,9 +82,11 @@ public class OrderItem extends Driversetup{
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath (Xpaths.deliveryAddress)).sendKeys("28/B zigatola");
-		driver.findElement(By.xpath (Xpaths.deliveryTo_Home)).click();
+		Thread.sleep(2000);
 		driver.findElement(By.xpath (Xpaths.deliverySaveButton)).click();
-		Thread.sleep(10000);
+		Thread.sleep(2000);
+		driver.findElement(By.xpath (Xpaths.addressSaveButton)).click();
+		Thread.sleep(5000);
 		
 	}
 	
