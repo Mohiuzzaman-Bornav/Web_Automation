@@ -4,7 +4,7 @@ public class Xpaths {
 	public static String firstCatagory             = "//span[contains(text(),'Electronic Accessories')]" ;
 	public static String secondCatagory            = "//span[contains(text(),'Computer Accessories')]" ;
 	public static String thirdCatagory             = "//span[contains(text(),'Power Cord & Adaptors')]" ;
-	public static String firstproduct              = "//div[@data-qa-locator='product-item']"  ;                                          //   "//a[contains(text(),'Network Cable Tester RJ45 RJ11 Cat5 Cat6')]" ;
+	public static String firstproduct              = "//div[@data-qa-locator='product-item']"  ;                                         
 	public static String addToCart                 = "//span[contains(text(),'Add to Cart')]" ;
 	public static String loginModal                = "//iframe[@class='login-iframe']" ;
 	public static String userEmail                 = "//input[@placeholder='Please enter your Phone Number or Email']" ;
